@@ -1,0 +1,103 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Orbitron";
+    src: url("https://fonts.googleapis.com/css2?family=Orbitrondisplay=swap") 
+}
+
+/*
+    CIS-162 Project 1-3
+    Author: Luis M. Perez
+    Date: 02.24.2024  
+
+    pcc_about_me.css
+*/
+
+/* HTML and Body Styles */
+html {
+    background-color:silver
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-size: larger;
+	letter-spacing: 1px; 
+	position: relative;
+	color: black;  
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 3.0em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h1, h2 {
+    color: rgb(0, 0, 0);
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+
+/* basic elements */
+a:link { 
+	font-weight: normal; 
+	text-decoration:underline;
+    clear: unset;
+	color: rgb(255, 0, 0);
+}
+
+a:visited { 
+	font-weight: normal; 
+	text-decoration: none;
+    clear: unset; 
+	color: rgb(255, 94, 0);
+}
+
+/* specific divs */
+.page-wrapper { 
+	background: transparent;
+	margin: 0; 
+    font-size: larger;
+}
+
+.headers { 
+	background:transparent;
+	margin: 0; 
+    clear: both;
+}
+
+
+/* Navigation Styles */
+nav {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+nav> ul {
+    font-size: 1em;
+    color: rgb(255, 0, 0);
+    line-height: 1.5em;
+}
+
+/* List Styles */
+ol {
+    font-family: "Orbitron", sans-serif;
+    background: transparent;
+    clear: both; 
+	color: rgb(0, 0, 0);
+    font-size: x-large
+}
+
+/* Footer Styles */
+.footer {
+    background: transparent;
+    color: rgb(255, 0, 0);
+    font: normal small-caps bold 0.9em/3em
+         Quicksand, Verdana, Genave, sans-serif;
+    text-align: center;
+    bottom: 0;
+}
