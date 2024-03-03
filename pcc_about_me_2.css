@@ -1,0 +1,207 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Orbitron";
+    src: url("https://fonts.googleapis.com/css2?family=Orbitrondisplay=swap") 
+}
+
+/*
+    CIS-162 Project 1-4
+    Author: Luis M. Perez
+    Date: 03.02.2024  
+
+    pcc_about_me_2.css
+*/
+
+/* Structural Styles */
+article, aside, figcaption, figure, footer,
+header, main, nav, section {
+   display: block;
+}
+
+/* Typographic Styles */
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+ background: transparent;
+ font-size: 100%;
+ margin: 0;
+ padding: 0;
+ vertical-align: baseline;
+ box-sizing: border-box;
+}
+
+/* HTML and Body Styles */
+html {
+    background-color: beige;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-size: large;
+	letter-spacing: 1px; 
+	position: relative;
+	color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 1400px;
+    min-width: 1175px;
+    width: 95%;
+}
+
+body > header {
+    display: block;
+    text-align: center;
+    background-image: url("ct_the_crew.JPG");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: rgb(255, 94, 0);
+    -webkit-text-stroke: .9px;
+    -webkit-text-stroke-color:black;
+}
+
+
+body > header > nav.horizontalNavigation li {
+    width: 33.33%;
+    padding-top: 0;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 3.7em;
+    padding-bottom: 1.0em;
+    padding-top: 1.0em;
+}
+h2 {
+    font-size: larger;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h1, h2, h3 {
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+
+/* basic elements */
+a:link { 
+	font-weight: normal; 
+	text-decoration:underline;
+    color: rgb(255, 0, 0);
+    clear: unset;
+}
+
+a:visited { 
+	font-weight: normal; 
+	text-decoration: none;
+    clear: unset; 
+	color: rgb(255, 94, 0);
+}
+
+/* specific divs */
+
+section#leftColumn {
+    background-color: white;
+	font-size: large;
+    clear: left;
+    float: left;
+    padding: 1.5em;
+    width: 70%;  
+}
+
+section#rightColumn {
+    background: transparent;
+	font-size: large;
+    float: left;
+    padding: 1.5em;
+    width: 30%;
+}
+
+section#page-wrapper { 
+	background: transparent;
+    float: left;
+    padding-left: 2.0em;
+    font-size: large;
+    clear: right;
+    padding-bottom: 1.0em;
+    padding-top: 1.0em;
+}
+
+section#leftPic {
+    text-align: center;
+    float: left;
+    clear: left;
+    padding-bottom: 1.0em;
+    padding-top: 1.0em;
+    width: 70%;
+}
+
+section#rightPic {
+    text-align: center;
+    float: left;
+    clear: right;
+    padding-bottom: 1.0em;
+    padding-top: 1.0em;
+    width: 30%;
+}
+
+section#dogPic {
+    text-align: center;
+    float: left;
+    padding-left: 8.0em;
+    width: 100%;
+}
+
+/* Navigation Styles */
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+    border: solid black;
+    background-color: silver;
+}
+
+/* List Styles */
+
+ol {
+    font-family: "Orbitron", sans-serif;
+    background: transparent;
+    clear: both; 
+	color: rgb(0, 0, 0);
+    font-size: large
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+    color: rgb(255, 0, 0);
+    font: italic small-caps bold 1.0em
+         Quicksand, Verdana, Genave, sans-serif;
+    text-align: center;
+    clear: left;
+    padding-top: 2.5em;
+    bottom: 0;
+    background-image: url("ct_jeep3.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+}
